@@ -1,0 +1,17 @@
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\obj\Debug\netstandard2.0\MessagingApp.csprojAssemblyReference.cache
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\obj\Debug\netstandard2.0\MessagingApp.csproj.CoreCompileInputs.cache
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\obj\Debug\netstandard2.0\MessagingApp.AssemblyInfoInputs.cache
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\obj\Debug\netstandard2.0\MessagingApp.AssemblyInfo.cs
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\bin\Debug\netstandard2.0\test.txt
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\bin\Debug\netstandard2.0\MessagingApp.deps.json
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\bin\Debug\netstandard2.0\MessagingApp.dll
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\bin\Debug\netstandard2.0\MessagingApp.pdb
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\bin\Debug\netstandard2.0\MessagingAppML.Model.dll
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\bin\Debug\netstandard2.0\MessagingAppML.Model.pdb
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\obj\Debug\netstandard2.0\MessagePage.xaml.g.cs
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\obj\Debug\netstandard2.0\MessagingApp.csproj.CopyComplete
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\obj\Debug\netstandard2.0\MessagingApp.dll
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\obj\Debug\netstandard2.0\MessagingApp.pdb
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp\obj\Debug\netstandard2.0\XamlC.stamp

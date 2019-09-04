@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MessagingApp.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin Messenger!&#x0a;Think twice before sending mean messages" 
+           HorizontalOptions="Center" TextColor="PaleVioletRed"
+           VerticalOptions="Center" HorizontalTextAlignment="Center" FontAttributes="Bold"  WidthRequest="250" Margin="20" />
+        <Entry x:Name="RecipientBox" VerticalOptions="CenterAndExpand" Placeholder="Recipient"></Entry>
+        <Editor x:Name="MessageBox" Placeholder="Message" AutoSize="TextChanges" MinimumHeightRequest="100" VerticalOptions="StartAndExpand"></Editor>
+        <Button x:Name="SendBtn" VerticalOptions="CenterAndExpand" Text="Send" Clicked="SendBtn_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>

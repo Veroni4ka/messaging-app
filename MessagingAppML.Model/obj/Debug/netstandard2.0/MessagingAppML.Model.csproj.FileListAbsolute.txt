@@ -1,0 +1,11 @@
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\bin\Debug\netstandard2.0\test.txt
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\bin\Debug\netstandard2.0\MessagingAppML.Model.deps.json
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\bin\Debug\netstandard2.0\MessagingAppML.Model.dll
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\bin\Debug\netstandard2.0\MessagingAppML.Model.pdb
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netstandard2.0\MessagingAppML.Model.csproj.CoreCompileInputs.cache
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netstandard2.0\MessagingAppML.Model.AssemblyInfoInputs.cache
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netstandard2.0\MessagingAppML.Model.AssemblyInfo.cs
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netstandard2.0\MessagingAppML.Model.dll
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netstandard2.0\MessagingAppML.Model.pdb
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netstandard2.0\MessagingAppML.Model.csprojAssemblyReference.cache

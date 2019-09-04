@@ -1,0 +1,7 @@
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingApp\MessagingApp.iOS\obj\iPhoneSimulator\Debug\MessagingApp.iOS.csproj.CoreCompileInputs.cache

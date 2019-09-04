@@ -1,0 +1,10 @@
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\bin\Debug\netcoreapp2.1\MLModel.zip
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\bin\Debug\netcoreapp2.1\MessagingAppML.Model.deps.json
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\bin\Debug\netcoreapp2.1\MessagingAppML.Model.dll
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\bin\Debug\netcoreapp2.1\MessagingAppML.Model.pdb
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netcoreapp2.1\MessagingAppML.Model.csprojAssemblyReference.cache
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netcoreapp2.1\MessagingAppML.Model.csproj.CoreCompileInputs.cache
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netcoreapp2.1\MessagingAppML.Model.AssemblyInfoInputs.cache
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netcoreapp2.1\MessagingAppML.Model.AssemblyInfo.cs
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netcoreapp2.1\MessagingAppML.Model.dll
+C:\Users\vkolesnikova\source\repos\MessagingApp\MessagingAppML.Model\obj\Debug\netcoreapp2.1\MessagingAppML.Model.pdb
