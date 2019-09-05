@@ -13,7 +13,6 @@ C:\Users\Veronika\source\repos\messaging-app\MessagingAppML.Model\bin\Debug\nets
 C:\Users\Veronika\source\repos\messaging-app\MessagingAppML.Model\bin\Debug\netstandard2.0\MessagingAppML.Model.deps.json
 C:\Users\Veronika\source\repos\messaging-app\MessagingAppML.Model\bin\Debug\netstandard2.0\MessagingAppML.Model.dll
 C:\Users\Veronika\source\repos\messaging-app\MessagingAppML.Model\bin\Debug\netstandard2.0\MessagingAppML.Model.pdb
-C:\Users\Veronika\source\repos\messaging-app\MessagingAppML.Model\obj\Debug\netstandard2.0\MessagingAppML.Model.csprojAssemblyReference.cache
 C:\Users\Veronika\source\repos\messaging-app\MessagingAppML.Model\obj\Debug\netstandard2.0\MessagingAppML.Model.csproj.CoreCompileInputs.cache
 C:\Users\Veronika\source\repos\messaging-app\MessagingAppML.Model\obj\Debug\netstandard2.0\MessagingAppML.Model.AssemblyInfoInputs.cache
 C:\Users\Veronika\source\repos\messaging-app\MessagingAppML.Model\obj\Debug\netstandard2.0\MessagingAppML.Model.AssemblyInfo.cs

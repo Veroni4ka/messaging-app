@@ -14,9 +14,5 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)xamarin.forms\4.1.0.555618\build\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\4.1.0.555618\build\Xamarin.Forms.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.ml\1.3.1\build\netstandard2.0\Microsoft.ML.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml\1.3.1\build\netstandard2.0\Microsoft.ML.props')" />
   </ImportGroup>
-  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Veronika\.nuget\packages\newtonsoft.json\10.0.3</PkgNewtonsoft_Json>
-  </PropertyGroup>
 </Project>

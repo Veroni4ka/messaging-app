@@ -1,9 +1,9 @@
 ﻿using MessagingAppML.Model.DataModels;
-using Microsoft.ML;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,8 +16,6 @@ namespace MessagingApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MessagePage : ContentPage
     {
-        private const string MODEL_FILEPATH = @"MLModel.zip";
-
         public MessagePage()
         {
             InitializeComponent();
@@ -43,7 +41,6 @@ namespace MessagingApp
 
         private async void SendBtn_Clicked(object sender, EventArgs e)
         {
-            var mlContext = new MLContext();
             var text = MessageBox.Text;
             var recipient = RecipientBox.Text;
 
@@ -52,42 +49,40 @@ namespace MessagingApp
                 return;
             }
 
-            var prediction = TestSinglePrediction(mlContext, text);
+            var prediction = TestSinglePrediction(text).Result;
             if (prediction)
             {
                 var sendText = await DisplayAlert("Warning", "The message you're about to send might be rude and/or offensive. Are you sure you want to send it?", "Yes", "No");
                 if (sendText)
                     await SendSms(text, recipient);
             }
-            await SendSms(text, recipient);
+            else
+                await SendSms(text, recipient);
         }
 
-        private static bool TestSinglePrediction(MLContext mlContext, string text)
+        private async Task<bool> TestSinglePrediction(string text)
         {
-            ModelInput sampleStatement = new ModelInput { Content = text };
+            using (var client = new HttpClient())
+            using (var request = new HttpRequestMessage())
+            {
+                try
+                {
+                    request.Method = HttpMethod.Get;
+                    request.RequestUri = new Uri("https://messagingappweb.azurewebsites.net/api/automl/" + text);
 
-            ITransformer trainedModel = mlContext.Model.Load(GetAbsolutePath(MODEL_FILEPATH), out var modelInputSchema);
-
-            // Create prediction engine related to the loaded trained model
-            var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(trainedModel);
-
-            // Score
-            var predictedResult = predEngine.Predict(sampleStatement);
-
-            return Convert.ToBoolean(predictedResult.Prediction);
+                    var response = await client.SendAsync(request).ConfigureAwait(false);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        return Convert.ToBoolean(response.Content.ReadAsStringAsync().Result);
+                    }
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    return true;
+                }
+            }
         }
 
-        public static Stream GetAbsolutePath(string relativePath)
-        {
-            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(App)).Assembly;
-            Stream stream = assembly.GetManifestResourceStream("MessagingApp.MLModel.zip");
-
-            //FileInfo _dataRoot = new FileInfo(typeof(App).Assembly.Location);
-            //string assemblyFolderPath = _dataRoot.Directory.FullName;
-
-            //string fullPath = Path.Combine(assemblyFolderPath, relativePath);
-
-            return stream;
-        }
     }
 }
