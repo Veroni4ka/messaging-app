@@ -3930,11 +3930,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingAppML.ConsoleApp\\MessagingAppML.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.ConsoleApp\\MessagingAppML.ConsoleApp.csproj",
       "projectName": "MessagingAppML.ConsoleApp",
-      "projectPath": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingAppML.ConsoleApp\\MessagingAppML.ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.ConsoleApp\\MessagingAppML.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Veronika\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingAppML.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -3951,14 +3951,13 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://aka.ms/xf-ci/index.json": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/MixedRealityCloud/_packaging/AzureSpatialAnchors-MVPs/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj": {
-              "projectPath": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj"
+            "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj": {
+              "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj"
             }
           }
         }

@@ -6991,11 +6991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj",
       "projectName": "MessagingApp.iOS",
-      "projectPath": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj",
+      "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj",
       "packagesPath": "C:\\Users\\Veronika\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7012,17 +7012,16 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://aka.ms/xf-ci/index.json": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/MixedRealityCloud/_packaging/AzureSpatialAnchors-MVPs/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj": {
-              "projectPath": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj"
+            "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj": {
+              "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj"
             },
-            "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp.csproj": {
-              "projectPath": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp.csproj"
+            "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp\\MessagingApp.csproj": {
+              "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp\\MessagingApp.csproj"
             }
           }
         }

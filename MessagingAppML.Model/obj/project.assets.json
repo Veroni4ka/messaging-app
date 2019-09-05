@@ -3558,11 +3558,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj",
+      "projectUniqueName": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj",
       "projectName": "MessagingAppML.Model",
-      "projectPath": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj",
+      "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj",
       "packagesPath": "C:\\Users\\Veronika\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Veronika\\Downloads\\MessagingApp\\MessagingApp\\MessagingAppML.Model\\obj\\",
+      "outputPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -3579,8 +3579,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://aka.ms/xf-ci/index.json": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/MixedRealityCloud/_packaging/AzureSpatialAnchors-MVPs/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {

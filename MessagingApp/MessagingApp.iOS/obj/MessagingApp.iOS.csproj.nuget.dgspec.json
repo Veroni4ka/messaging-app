@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj": {}
+    "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj": {
+    "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj",
         "projectName": "MessagingAppML.Model",
-        "projectPath": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj",
-        "packagesPath": "C:\\Users\\vkolesnikova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingAppML.Model\\obj\\",
+        "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj",
+        "packagesPath": "C:\\Users\\Veronika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vkolesnikova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Veronika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://aka.ms/xf-ci/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,21 +63,21 @@
         }
       }
     },
-    "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj": {
+    "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj",
         "projectName": "MessagingApp.iOS",
-        "projectPath": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj",
-        "packagesPath": "C:\\Users\\vkolesnikova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp.iOS\\obj\\",
+        "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp.iOS\\MessagingApp.iOS.csproj",
+        "packagesPath": "C:\\Users\\Veronika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\vkolesnikova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Veronika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -85,16 +86,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://aka.ms/xf-ci/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj": {
-                "projectPath": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj"
+              "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj": {
+                "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj"
               },
-              "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp.csproj": {
-                "projectPath": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp.csproj"
+              "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp\\MessagingApp.csproj": {
+                "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp\\MessagingApp.csproj"
               }
             }
           }
@@ -130,21 +132,21 @@
         }
       }
     },
-    "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp.csproj": {
+    "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp\\MessagingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp.csproj",
+        "projectUniqueName": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp\\MessagingApp.csproj",
         "projectName": "MessagingApp",
-        "projectPath": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp\\MessagingApp.csproj",
-        "packagesPath": "C:\\Users\\vkolesnikova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingApp\\MessagingApp\\obj\\",
+        "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp\\MessagingApp.csproj",
+        "packagesPath": "C:\\Users\\Veronika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingApp\\MessagingApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vkolesnikova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Veronika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -153,13 +155,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://aka.ms/xf-ci/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj": {
-                "projectPath": "C:\\Users\\vkolesnikova\\source\\repos\\MessagingApp\\MessagingAppML.Model\\MessagingAppML.Model.csproj"
+              "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj": {
+                "projectPath": "C:\\Users\\Veronika\\source\\repos\\messaging-app\\MessagingAppML.Model\\MessagingAppML.Model.csproj"
               }
             }
           }
