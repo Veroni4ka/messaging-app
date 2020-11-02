@@ -68,7 +68,7 @@ namespace MessagingApp
                 try
                 {
                     request.Method = HttpMethod.Get;
-                    request.RequestUri = new Uri("https://messagingappweb.azurewebsites.net/api/automl/" + text);
+                    request.RequestUri = new Uri("" + text);
 
                     var response = await client.SendAsync(request).ConfigureAwait(false);
                     if (response.IsSuccessStatusCode)

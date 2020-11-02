@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
-    <SelectedDevice>Google Pixel XL</SelectedDevice>
+    <SelectedDevice>pixel_28</SelectedDevice>
     <DefaultDevice>pixel_28</DefaultDevice>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
