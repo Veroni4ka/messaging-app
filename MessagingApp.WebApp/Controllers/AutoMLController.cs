@@ -18,7 +18,7 @@ namespace MessagingApp.WebApp.Controllers
         public bool Get(string text)
         {
             var mlContext = new MLContext();
-            ModelInput sampleStatement = new ModelInput { Content = text };
+            ModelInput sampleStatement = new ModelInput { Comment_text = text };
 
             ITransformer trainedModel = mlContext.Model.Load(GetAbsolutePath(MODEL_FILEPATH), out var modelInputSchema);
 

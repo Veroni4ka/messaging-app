@@ -1,4 +1,5 @@
 ﻿using MessagingAppML.Model.DataModels;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -50,36 +51,49 @@ namespace MessagingApp
             }
 
             var prediction = TestSinglePrediction(text).Result;
-            if (prediction)
+            switch (prediction)
             {
-                var sendText = await DisplayAlert("Warning", "The message you're about to send might be rude and/or offensive. Are you sure you want to send it?", "Yes", "No");
-                if (sendText)
+                case "Negative":
+                    {
+                        var sendText = await DisplayAlert("Warning", "The message you're about to send might be rude and/or offensive. Are you sure you want to send it?", "Yes", "No");
+                        if (sendText)
+                            await SendSms(text, recipient);
+                        break;
+                    }
+                case "Positive":
                     await SendSms(text, recipient);
+                    break;
+                default:
+                    break;
             }
-            else
-                await SendSms(text, recipient);
         }
 
-        private async Task<bool> TestSinglePrediction(string text)
+        private async Task<string> TestSinglePrediction(string text)
         {
+            var req = new Request();
+            req.Comment = text;
+
             using (var client = new HttpClient())
             using (var request = new HttpRequestMessage())
             {
                 try
                 {
-                    request.Method = HttpMethod.Get;
-                    request.RequestUri = new Uri("https://messagingappweb.azurewebsites.net/api/automl/" + text);
+                    var serializedText = JsonConvert.SerializeObject(req);
+                    var content = new StringContent(serializedText, Encoding.UTF8, "application/json");
+                    request.Method = HttpMethod.Post;
+                    request.RequestUri = new Uri("");
 
-                    var response = await client.SendAsync(request).ConfigureAwait(false);
+                    var response = await client.PostAsync(request.RequestUri, content).ConfigureAwait(false);
+
                     if (response.IsSuccessStatusCode)
                     {
-                        return Convert.ToBoolean(response.Content.ReadAsStringAsync().Result);
+                        return response.Content.ReadAsStringAsync().Result;
                     }
-                    return true;
+                    return response.StatusCode.ToString();
                 }
                 catch (Exception ex)
                 {
-                    return true;
+                    return ex.Message;
                 }
             }
         }
