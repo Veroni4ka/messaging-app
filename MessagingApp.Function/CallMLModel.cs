@@ -33,10 +33,10 @@ namespace MessagingApp.Function
             //Parse HTTP Request Body
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             ModelInput data = JsonConvert.DeserializeObject<ModelInput>(requestBody);
-            
+
             //Make Prediction
             ModelOutput prediction = _predictionEnginePool.Predict("MLModel", example: data);
-            
+
             //var mlContext = new MLContext();
             //ModelInput sampleStatement = new ModelInput { Comment_text = data.Comment_text };
 
